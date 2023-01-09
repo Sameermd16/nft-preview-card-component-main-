@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.attribution {
+  font-size: 13px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+  max-width: 1000px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: var(--Very-dark-blue-main-BG);
+  gap: 2rem;
+}
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+  --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+.container {
+  /* border: 1px solid red; */
+  height: 60%;
+  width: 40%;
+  padding: 1rem;
+  background-color: var(--Very-dark-blue-card-BG);
+  border-radius: 0.5rem;
+}
+
+.eth-clock {
+  display: flex;
+  /* gap: 10rem; */
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.eth,
+.clock {
+  display: flex;
+  gap: .5rem;
+}
+.eth {
+  color: var(--Soft-blue);
+}
+.pic {
+  width:30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+.pic-div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* margin-top: 1rem; */
+}
+.equi {
+  width: 100%;
+}
+h3,.para-white {
+  color: white;
+}
+h3{
+    margin: 1rem 0;
+}
+.para {
+  color: rgba(255, 255, 255, 0.359);
+}
+span {
+  color: rgba(255, 255, 255, 0.376);
+}
+hr {
+    height: 1px;
+  background-color: rgba(255, 255, 255, 0.235);
+  margin: 1rem 0;
+  border: none;
+}
