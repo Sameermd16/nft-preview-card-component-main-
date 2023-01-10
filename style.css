@@ -48,6 +48,7 @@ body {
   padding: 1rem;
   background-color: var(--Very-dark-blue-card-BG);
   border-radius: 0.5rem;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.20);
 }
 
 .eth-clock {
